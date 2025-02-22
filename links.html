@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+</head>
+<body>
+    
+    <!--Step 1 : Creates basic html body -->
+
+        <h1 align="center" style="color:blue" id ="Tag" ><b>About Links</b></h1>
+        
+        <h2><b>Table1</b></h2>
+        
+        <table border="1px solid black" cellpadding="8px" cellspacing="4px">
+            <tr>
+                <th>
+                    Types
+                </th>
+                <th>
+                    Behvior
+                </th>
+            </tr>
+             <tr>
+                <td>
+                    Anchor
+                </td>
+                <td>
+                    within the same page
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Blank
+                </td>
+                <td>
+                    opens in a new page
+                </td>
+            </tr>           
+        </table><br />
+
+        <!--Step 3 : opens a new html within the project -->
+        <a href="task2.html" target="_self">link to html within the project</a><br /> <br />
+
+        <!--Step 4 : opens link in new tab -->
+        <a href="https://www.google.com" target="_blank">Open Google in a new tab</a><br /> <br />
+
+        <!--Step 5 : opens the Test leaf link in a new brower with specified window size -->
+        <a href="https://platform.testleaf.com/" target="_blank"
+            onclick="window.open(this.href, '_blank', 'width=800,height=600'); return false;">
+             Open TL in new browser
+        </a><br /><br />
+
+        <!--Step 5 : Anchor link or add a bookmark -->
+
+        <div style="height: 800px;"></div>  <!-- Creates some space to scroll -->
+
+        <a href = "#Tag">Move to Header Tag</a>
+        
+</body>
+</html>
